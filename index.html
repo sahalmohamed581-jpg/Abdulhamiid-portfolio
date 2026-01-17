@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nero | Digital Product Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AbdulHamiid</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hey, I'm a <br><span>digital</span> product designer.</h1>
+            <p>I'm a freelance web designer from Somalia, specializing in user-centric digital experiences.</p>
+            <div class="cta-form">
+                <input type="email" placeholder="Email address">
+                <button class="btn-primary">Subscribe</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-blob">
+                <img src="removebg-preview.png" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <p class="section-subtitle">MY SKILLS</p>
+        <h2 class="section-title">My Expertise</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon blue-icon">💡</div>
+                <h3>Strategy & Direction</h3>
+                <p>Understanding your goals and target audience to create a roadmap for success.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon orange-icon">🎨</div>
+                <h3>Branding & Logo</h3>
+                <p>Creating visual identities that stand out and tell your unique brand story.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="about-card">
+        <div class="about-grid">
+            <div class="about-image-wrapper">
+                <img src="removebg-preview.png" alt="About Me Portrait" class="profile-circle">
+            </div>
+            <div class="about-text">
+                <p class="section-subtitle">WHO I AM</p>
+                <h2>Passionate about clean design and user experience.</h2>
+                <p class="description">
+                    I believe that every pixel has a purpose. With over 5 years of experience, 
+                    I help brands bridge the gap between complex technology and human needs.
+                </p>
+                <div class="contact-details">
+                    <div class="detail-item"><span>📧</span> AbdulHamiid333@gmail.com</div>
+                    <div class="detail-item"><span>📞</span> +252617667949</div>
+                    <div class="detail-item"><span>📍</span> Somalia</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <div class="contact-card">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form action="https://formbold.com/s/6QdyL" method="POST" enctype="multipart/form-data">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <p>📧 AbdulHamiid333@gmail.com</p>
+                    <p>📞 +252617667949</p>
+                    <p>📍 Somalia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">AbdulHamiid</div>
+        <p>&copy; 2026 AbdulHamiid. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/abdulhamiidddd?igsh=MXhpYXRldW55OGlkaA==" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/share/1APQfVayWJ/" target="_blank">facebook</a>
+            <a href="https://github.com/sahalmohamed581-jpg" target="_blank">github</a>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        // Simple Mobile Nav Toggle
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
+</body>
+</html>
